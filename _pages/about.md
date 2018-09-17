@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong> Arman Mohseni Kabir
+title: <strong> Arman Mohseni Kabir </strong>
 description: <a href="">Physics/CS Dept. UMass Amherst</a>, arman@physics.umass.edu
 
 profile:
