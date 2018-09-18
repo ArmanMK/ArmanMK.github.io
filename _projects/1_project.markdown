@@ -1,20 +1,17 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Robustness Metrics for Networked Structures
+description: How networks respond to loss of nodes/edges?
+img: /assets/img/Grid.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Percolation theory predicts a phase transition in the global connectivity of a networked system when the probability of nodes/edges being present in the network passes a certain threshold. This approach has been extensively used in the literature to study the robustness of various networks to failiures. However, this approach has two main shortcommings:
+ 1. Precolation theory studies the infinite limit behavior in networks and there are limited studies that deal with small networks using percolation theory. 
+ 2. General network connectivity is not robust enough for most of the technological and natural networks to ensure resilience to dynamics of the networks or failiures in network components. As an illustrative example, it is been observed that cellular networks need to have multiple pathways to maintain stability to perturbations during cellular metabolism.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+To address this shortcommings, I am developping and studying novel robustness metrics to 
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
 
 
 <div class="img_row">
