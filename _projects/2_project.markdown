@@ -1,27 +1,22 @@
 ---
 layout: page
-title: Project 2
-description: a project with a background image
-img: /assets/img/2.jpg
+title: Graph Convolutional Neural Networks Using Discrete-time Quantum Walks
+description: In collaboration with S. Dernbach, S. Pal and D. Towsley
+img: /assets/img/usheat.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Convolutional neural networks have attracted lots of attention in past few years for tasks that range from imgae classification to signal processing. However, these approached are limited to grid-structured data. There is growing interest in applying ideas from convolutional neural networks to graph structured data. A subset of these graph deep learning architectures are based on classical random walks to extract and learn information from the graph.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Atwood et al. proposed Diffusion-Convolutional Neural Networks (DCNN). DCNN is a spational convoltional method which diffuses random walks on the graph and collects information from spatially close neighbors in the graph.
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Quantum walks are the quantum parallel to their classical counterparts – While a classical walker is modeled by a probability distribution overpositions in a graph, a quantum walker is described by a superposition over position states.
 
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
+
+
+<div class="img">
+    <img class="col one" src="{{ site.baseurl }}/assets/img/usheat.png" alt="" title="example image"/>
+
 <div class="col three caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>

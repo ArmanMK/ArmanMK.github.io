@@ -2,9 +2,33 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses that I have taught or been teaching assistant for
 ---
+<h3> Introductory Physics I&II </h3>
+Position: Teaching Assistant 
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Institution: University of Massachusetts Amherst
 
-Organize your courses by years, topics, or universities, however you like!
+Date: Spring 2014-Fall 2016
+
+
+<h3> Biophysics </h3>
+Position: Teaching Assistant 
+
+Institution: Sharif University of Technology
+
+Date: Fall 2012
+
+<h3> Computational Physics </h3>
+Position: Teaching Assistant 
+
+Institution: IKIU
+
+Date: Fall 2011
+
+<h3> Statistical Physics </h3>
+Position: Teaching Assistant 
+
+Institution: IKIU
+
+Date: Fall 2010

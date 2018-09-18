@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robustness Metrics for Networked Structures
-description: How networks respond to loss of nodes/edges?
+description: In collaboration with D. Towsley, S. Guha, A. Swami
 img: /assets/img/Grid.jpg
 ---
 
@@ -9,18 +9,16 @@ Percolation theory predicts a phase transition in the global connectivity of a n
  1. Precolation theory studies the infinite limit behavior in networks and there are limited studies that deal with small networks using percolation theory. 
  2. General network connectivity is not robust enough for most of the technological and natural networks to ensure resilience to dynamics of the networks or failiures in network components. As an illustrative example, it is been observed that cellular networks need to have multiple pathways to maintain stability to perturbations during cellular metabolism.
 
-To address this shortcommings, I am developping and studying novel robustness metrics to 
+To address this shortcommings, I am developping and studying novel robustness metrics. Surprisingly, it can be rigorousely proved that for bond/site percolation on the square lattice, the percolation threshold for Biconnectivity and Triconnectivity are the same as regular percolation threshold. Also, Newman et al. (Phys. Rev. Lett. 100, 138701) showed that 
 
 
 
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/Newman.png" alt="" title="Newman"/>
 </div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+<div class="caption">
+    Percolation threshold for biconnectivity on configuration model networks. k=1 corresponds to regular percolation and k=2 corresponds to biconnectivity. Image from Newman et al. (Phys. Rev. Lett. 100, 138701) 
 </div>
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
