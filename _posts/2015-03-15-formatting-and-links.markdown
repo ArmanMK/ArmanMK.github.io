@@ -14,7 +14,7 @@ I have been always amazed with how our brain extracts structure form the noisy e
 
 <blockquote>
      Here we propose a competing perspective: that higher order
-associations actually arise from natural errors in learning
+associations actually arise from natural errors in learning.
     <a href="https://arxiv.org/pdf/1805.12491.pdf" target="blank">Lynn et al.</a>
 </blockquote>
 

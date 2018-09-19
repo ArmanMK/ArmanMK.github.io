@@ -1,0 +1,12 @@
+---
+layout: post
+title:  From Patterns to Function in Living Systems, Dryland Ecosystems as a Case Study
+date:   2018-04-11 21:37:11
+description: A great review article on pattern formation with emphasize on vegetation patterns.
+---
+
+
+<a href="https://www.annualreviews.org/doi/full/10.1146/annurev-conmatphys-033117-053959?casa_token=pjSAYp8ry1kAAAAA%3Ao_1brMZHdlHIp9ITEKmaWkNu0r0RSZITaDRlLJx17M1BnvVbf3X1sTVLYUeZXEPQgGHAMciAWVp3Hw" target="blank">From Patterns to Function in Living Systems: Dryland Ecosystems as a Case Study.</a>
+
+
+
