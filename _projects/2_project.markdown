@@ -9,7 +9,7 @@ Convolutional neural networks have attracted lots of attention in past few years
 
 Atwood et al. proposed Diffusion-Convolutional Neural Networks (<a href="https://papers.nips.cc/paper/6212-diffusion-convolutional-neural-networks" target="blank">DCNN</a>). DCNN is a spatial convolutional method which diffuses random walks on the graph and collects information from spatially close neighbors in the graph.
 
-<h4> Quantum Diffusion as Convolution on Graphs</h4>
+<h4> My Research Contribution: Quantum Diffusion as Convolution on Graphs</h4>
 Quantum walks has been shown to be exponentially faster than classical algorithms in  some graph search problems. Quantum walks are the quantum parallel to their classical counterparts – While a classical walker is modeled by a probability distribution overpositions in a graph, a quantum walker is described by a superposition over position states. 
 
 
@@ -22,7 +22,7 @@ Quantum walks has been shown to be exponentially faster than classical algorithm
     The evolution of a quantum walk can be controlled using a so called Coin operator and it could be very different from the uniform evolution of a regular random walk. The top images correspond to a regular random walk, whereas the bottom images correspond to the evolution of a quantum walk.
 </div>
 
-
+<h3> Results</h3>
 <h4> Molecular Graph Classification Task </h4>
 IN order to test our proposed method against other graph convolution methods, we make use of three benchmark molecular datasets, namely, MUTAG, Enzymes, and NCI1. The table below describes the details of the mentioned datasets and shows the classification accuracy of state of the art models compared to our QWNN. (For more details, refere to the arxiv version of our paper at the bottom of the page.) 
 
