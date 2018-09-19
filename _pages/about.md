@@ -8,9 +8,9 @@ profile:
   align: right
   image: Arman.jpeg
   address: >
-    <p>339 LGRC</p>
-    <p>740 N, Pleasant Street</p>
-    <p>Amherst, MA 01003</p>
+    339 LGRC
+    740 N, Pleasant Street
+    Amherst, MA 01003
 
 news: false
 social: flase
