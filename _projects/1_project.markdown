@@ -9,7 +9,8 @@ Percolation theory predicts a phase transition in the global connectivity of a n
  1. Precolation theory studies the infinite limit behavior in networks and there are limited studies that deal with small networks using percolation theory. 
  2. General network connectivity is not robust enough for most of the technological and natural networks to ensure resilience to dynamics of the networks or failiures in network components. As an illustrative example, it is been observed that cellular networks need to have multiple pathways to maintain stability to perturbations during cellular metabolism. (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4614848/" target="blank">Biconnectivity in Cellular Metabolism</a>)
 
-To address this shortcommings, I am developping and studying novel robustness metrics. Surprisingly, it can be rigorousely proved that for bond/site percolation on the square lattice, the percolation threshold for Biconnectivity and Triconnectivity are the same as regular percolation threshold. Also, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.138701" target="blank">Newman et al.</a> showed that the percolation threshold of biconnected components is similar to that of the regular percolation problem in configuration model networks.
+<h4>My Research Contribution</h4>
+To address this shortcommings, I am developping and studying novel robustness metrics. Surprisingly, I have rigorousely proved that for bond/site percolation on the square lattice, the percolation threshold for Biconnectivity and Triconnectivity are the same as regular percolation threshold. Also, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.138701" target="blank">Newman et al.</a> showed that the percolation threshold of biconnected components is similar to that of the regular percolation problem in configuration model networks.
 
 
 
@@ -30,6 +31,8 @@ This gives rise to the concept of universality classes. The exponents of the scl
 
 In my research, I am studying the type of the phase transitions and universality classes of the proposed robustness metrics.
 
-This work has been presented in <a href="https://complenet18.weebly.com/" target="blank">CompleNet 2018</a> and is in preparation for submission to Physical Review E.
+This work has been presented in <a href="https://complenet18.weebly.com/" target="blank">CompleNet 2018</a> and <a href="https://dais-ita.org/pub" target="blank">Distributed Analytics and Information Science International Technology Alliance</a> and is in preparation for submission to Physical Review E.
+
+
 
 
