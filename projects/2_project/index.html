@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Arman Mohseni-Kabir | Graph Convolutional Neural Networks Using Discrete-time Quantum Walks</title>
+  <meta name="description" content="">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/2_project/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Arman</strong> Mohseni-Kabir
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">main projects</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Graph Convolutional Neural Networks Using Discrete-time Quantum Walks</h1>
+    <h5 class="post-description">In collaboration with S. Dernbach, S. Pal and D. Towsley</h5>
+  </header>
+
+  <article class="post-content Graph Convolutional Neural Networks Using Discrete-time Quantum Walks clearfix">
+    <h4> Convolutional Neural Networks on Graphs</h4>
+<p>Convolutional neural networks have attracted lots of attention in past few years for tasks that range from imgae classification to signal processing. However, these approached are limited to grid-structured data. There is growing interest in applying ideas from convolutional neural networks to graph structured data. A subset of these graph deep learning architectures are based on classical random walks to extract and learn information from the graph.</p>
+
+<p>Atwood et al. proposed Diffusion-Convolutional Neural Networks (<a href="https://papers.nips.cc/paper/6212-diffusion-convolutional-neural-networks" target="blank">DCNN</a>). DCNN is a spatial convolutional method which diffuses random walks on the graph and collects information from spatially close neighbors in the graph.</p>
+
+<h4> My Research Contribution: Quantum Diffusion as Convolution on Graphs</h4>
+<p>Quantum walks has been shown to be exponentially faster than classical algorithms in  some graph search problems. Quantum walks are the quantum parallel to their classical counterparts – While a classical walker is modeled by a probability distribution overpositions in a graph, a quantum walker is described by a superposition over position states. In this work, we propose to use discrete-time quantum walks as the convolution operation on graphs and compare our results against the state of the art methods.</p>
+
+<div class="img">
+    <img class="col" src="/assets/img/qw.png" alt="" title="example image" />
+
+<div class="col three caption">
+    The evolution of a quantum walk can be controlled using a so called Coin operator and it could be very different from the uniform evolution of a regular random walk. The top images correspond to a regular random walk, whereas the bottom images correspond to the evolution of a quantum walk.
+</div>
+
+<h3> Results</h3>
+<h4> Molecular Graph Classification Task </h4>
+IN order to test our proposed method against other graph convolution methods, we make use of three benchmark molecular datasets, namely, MUTAG, Enzymes, and NCI1. The table below describes the details of the mentioned datasets and shows the classification accuracy of state of the art models compared to our QWNN. (For more details, refere to the arxiv version of our paper at the bottom of the page.) 
+
+<div class="img">
+    <img class="col three left" src="/assets/img/Mutag.png" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    Description of graph classification datasets and the accuracies of our model compared to other models.
+</div>
+
+<h4> Graph Regression Task </h4>
+In our graph regression task, we use the temperature time series data available in US weather stations and create a connected graph based on nearest neighbors. The task is then to predict the temperature of the next day given the history of tempereture on the graph. 
+<div class="img_row">
+	  
+    <img class="row three left" src="/assets/img/temp.png" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    Results for the graph regression task. QW corresponds to our quantum walk neural network architecture.
+</div>
+
+
+The Arxiv version of this research can be found here: <a href="https://arxiv.org/abs/1801.05417" target="blank">Quantum Walk Inspired Neural Networks for Graph-Structured Data</a> <br />
+
+
+The latest version of our work is submitted to <a href="https://www.complexnetworks.org/" target="blank">Complex Networks 2018</a>.
+
+
+</div>
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2018 Arman Mohseni-Kabir.
+    
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
