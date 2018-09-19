@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: main projects
 permalink: /projects/
 description: Selected list of my academic projects.
 ---
